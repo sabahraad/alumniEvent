@@ -32,7 +32,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
         <div class="main-agileinfo">
             <div class="agileits-top">
-                <form action="{{ route('ndc.registration') }}" method="post" enctype="multipart/form-data"
+                <form action="{{route('pay')}}" method="post" enctype="multipart/form-data"
                     data-parsley-validate>
                     @csrf
                     <p id='replace-me'>Amount 2000 BDT</p>
